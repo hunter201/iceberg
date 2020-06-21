@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600;700&display=swap");
+body {
+  background: url(/img/wallpaper.png) 0 0 no-repeat; }
+
+h1, h2, h3, p {
+  margin: 0;
+  padding: 0; }
+
+.header {
+  display: flex;
+  width: 100%;
+  margin-top: 30px;
+  justify-content: space-around;
+  background-color: #0294de;
+  margin-bottom: 175px; }
+  .header .nav {
+    display: flex;
+    width: 390px;
+    justify-content: space-between;
+    align-items: center; }
+    .header .nav span a {
+      color: #ffffff;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 700;
+      font-size: 18px;
+      text-decoration: none; }
+
+.main-header h1 {
+  font-family: 'Bebas Neue', cursive;
+  font-weight: 500;
+  text-align: center;
+  color: #ffffff;
+  font-size: 91px;
+  letter-spacing: 3px;
+  margin: 0; }
+.main-header p {
+  font-family: 'Open Sans', sans-serif;
+  color: #bbd8ff;
+  font-size: 24px;
+  font-weight: normal;
+  text-align: center;
+  line-height: 42px;
+  margin: 0;
+  margin-bottom: 60px; }
+.main-header .button-wrap {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 715px; }
+  .main-header .button-wrap .button {
+    display: flex;
+    width: 214px;
+    height: 52px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #25365d;
+    background-color: #25365d;
+    border-radius: 28px; }
+    .main-header .button-wrap .button .img {
+      margin-right: 18px;
+      margin-top: 5px; }
+    .main-header .button-wrap .button .text {
+      font-family: 'Open Sans', sans-serif;
+      color: #ffffff;
+      font-size: 18px;
+      font-weight: bold;
+      text-decoration: none; }
+
+.section-1 {
+  margin-bottom: 145px; }
+  .section-1 .offer {
+    margin-left: 300px;
+    background: url(/img/notebook.png) 510px 0 no-repeat; }
+    .section-1 .offer h2 {
+      font-family: 'Bebas Neue', cursive;
+      font-weight: normal;
+      font-size: 72px;
+      color: #25365d;
+      margin-bottom: 35px;
+      margin-left: 20px; }
+    .section-1 .offer p {
+      font-family: 'Open Sans', sans-serif;
+      color: #000;
+      font-size: 16px;
+      margin-bottom: 50px;
+      margin-left: 20px; }
+    .section-1 .offer ul {
+      list-style-image: url(/img/checked.png);
+      margin-bottom: 65px; }
+      .section-1 .offer ul li {
+        line-height: 32px; }
+    .section-1 .offer .button-wrap {
+      display: flex;
+      justify-content: start;
+      margin-left: 20px; }
+      .section-1 .offer .button-wrap .button {
+        display: flex;
+        width: 214px;
+        height: 52px;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid #25365d;
+        background-color: #25365d;
+        border-radius: 28px; }
+        .section-1 .offer .button-wrap .button .text {
+          font-family: 'Open Sans', sans-serif;
+          color: #ffffff;
+          font-size: 18px;
+          font-weight: bold;
+          text-decoration: none; }
+
+.section-2 {
+  height: 600px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 150px; }
+  .section-2 .article-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #f7f9fb; }
+  .section-2 .article-block {
+    display: flex;
+    justify-content: center; }
+    .section-2 .article-block .article {
+      display: flex;
+      margin: 35px;
+      width: 340px; }
+      .section-2 .article-block .article .photo {
+        width: 57px; }
+        .section-2 .article-block .article .photo img {
+          display: inline-block;
+          margin-top: 8px; }
+      .section-2 .article-block .article .text-block {
+        margin-left: 30px; }
+        .section-2 .article-block .article .text-block h3 {
+          font-family: 'Open Sans', sans-serif;
+          font-size: 22px;
+          font-weight: normal;
+          text-transform: uppercase;
+          color: #25365d;
+          text-align: left;
+          margin-bottom: 20px; }
+        .section-2 .article-block .article .text-block p {
+          font-family: 'Open Sans', sans-serif;
+          font-size: 16px;
+          font-weight: normal;
+          color: #000000;
+          text-align: left;
+          line-height: 26px; }
+
+.section-3 h2 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 72px;
+  font-weight: bold;
+  color: #25365d;
+  text-align: center;
+  margin-bottom: 140px; }
+.section-3 .screen {
+  display: flex; }
+  .section-3 .screen .left-screen {
+    width: 50%;
+    height: 475px;
+    background-color: #e74f4f; }
+  .section-3 .screen .right-screen {
+    width: 50%;
+    height: 475px;
+    background-color: #90e73f; }
+
+/*# sourceMappingURL=main.css.map */

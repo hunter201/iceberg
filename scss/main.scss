@@ -1,0 +1,233 @@
+//Fonts
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600;700&display=swap');
+
+// font-family: 'Bebas Neue', cursive;
+// font-family: 'Open Sans', sans-serif;
+@mixin Bebas {
+    font-family: 'Bebas Neue', cursive;
+}
+
+@mixin Sans {
+    font-family: 'Open Sans', sans-serif;
+}
+
+ body {
+     background: url(/img/wallpaper.png) 0 0 no-repeat;
+ }
+ h1,h2,h3,p {
+     margin: 0;
+     padding: 0;
+ }
+
+.header {
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+    justify-content: space-around;
+    background-color: #0294de;
+    margin-bottom: 175px;
+    .nav {
+        display: flex;
+        width: 390px;
+        justify-content: space-between;
+        align-items: center;
+        span {
+            a {
+            color: #ffffff;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 700;
+            font-size: 18px;
+            text-decoration: none;
+        }
+        }
+    }
+}
+.main-header {
+    h1{
+        @include Bebas();
+        font-weight: 500;
+        text-align: center;
+        color: #ffffff;
+        font-size: 91px;
+        letter-spacing: 3px;
+        margin: 0;
+    }
+    p {
+        @include Sans();
+        color: #bbd8ff;
+        font-size: 24px;
+        font-weight: normal;
+        text-align: center;
+        line-height: 42px;
+        margin: 0;
+        margin-bottom: 60px;
+    }
+    
+    .button-wrap {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 715px;
+    
+    .button {
+        display: flex;
+        width: 214px;
+        height: 52px;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid #25365d;
+        background-color: #25365d;
+        border-radius: 28px;
+        .img {
+            margin-right: 18px;
+            margin-top: 5px;
+        }
+        .text {
+            @include Sans();
+            color: #ffffff;
+            font-size: 18px;
+            font-weight: bold;
+            text-decoration: none;
+        }
+    }
+}
+}
+
+.section-1 {
+    margin-bottom: 145px;
+    
+    .offer {
+        margin-left: 300px;
+        
+        background: url(/img/notebook.png) 510px 0 no-repeat;
+    h2 {
+        @include Bebas();
+        font-weight: normal;
+        font-size: 72px;
+        color: #25365d;
+        margin-bottom: 35px;
+        margin-left: 20px;
+    }
+    p {
+        @include Sans();
+        color: #000;
+        font-size: 16px;
+        margin-bottom: 50px;
+        margin-left: 20px;
+
+    }
+    ul {
+        list-style-image: url(/img/checked.png);
+        
+        margin-bottom: 65px;
+        li {
+            line-height: 32px;
+        }
+    }
+    .button-wrap {
+        display: flex;
+        justify-content: start;
+        margin-left: 20px;
+    
+    .button {
+        display: flex;
+        width: 214px;
+        height: 52px;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid #25365d;
+        background-color: #25365d;
+        border-radius: 28px;
+       
+        .text {
+            @include Sans();
+            color: #ffffff;
+            font-size: 18px;
+            font-weight: bold;
+            text-decoration: none;
+        }
+    }
+}
+}
+
+}
+
+.section-2 {
+    height: 600px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 150px;
+
+    .article-wrap {
+    display: flex;    
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #f7f9fb;
+    
+    }
+    .article-block {
+        display: flex;
+        justify-content: center;
+        .article {
+            display: flex;
+            margin: 35px;
+            width: 340px;
+            .photo {
+                width: 57px;
+                img {
+                    display: inline-block;
+                    margin-top: 8px;
+                }
+            }
+            .text-block {
+                margin-left: 30px;
+            h3 {
+                @include Sans();
+                font-size: 22px;
+                font-weight: normal;
+                text-transform: uppercase;
+                color: #25365d;
+                text-align: left;
+                margin-bottom: 20px;
+                }
+                p {
+                    @include Sans();
+                    font-size: 16px;
+                    font-weight: normal;
+                    color: #000000;
+                    text-align: left;
+                    line-height: 26px;
+                    
+                }
+        }
+        }
+    }
+}
+
+.section-3 {
+    h2 {
+        @include Bebas();
+        font-size: 72px;
+        font-weight: bold;
+        color: #25365d;
+        text-align: center;
+        margin-bottom: 140px;
+    }
+    .screen {
+        display: flex;
+        .left-screen {
+            
+            width: 50%;
+            height: 475px;
+            background-color: rgb(231, 79, 79);
+            
+        }
+        .right-screen {
+            
+            width: 50%;
+            height: 475px;
+            background-color: rgb(144, 231, 63);
+        }
+    }
+}
