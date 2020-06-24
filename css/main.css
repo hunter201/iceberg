@@ -15,15 +15,23 @@ h1, h2, h3, p {
   margin-bottom: 175px; }
   .header .nav {
     display: flex;
-    width: 390px;
+    width: 500px;
     justify-content: space-between;
     align-items: center; }
-    .header .nav span a {
-      color: #ffffff;
-      font-family: 'Open Sans', sans-serif;
-      font-weight: 700;
-      font-size: 18px;
-      text-decoration: none; }
+    .header .nav span {
+      display: inline-block;
+      margin: 0px 5px; }
+      .header .nav span a {
+        color: #ffffff;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 500;
+        font-size: 18px;
+        text-decoration: none; }
+        .header .nav span a:hover {
+          transition: 0.2s;
+          font-size: 22px; }
+      .header .nav span .search:hover {
+        transform: rotateZ(90deg); }
 
 .main-header h1 {
   font-family: 'Bebas Neue', cursive;
@@ -149,22 +157,258 @@ h1, h2, h3, p {
           text-align: left;
           line-height: 26px; }
 
-.section-3 h2 {
-  font-family: 'Bebas Neue', cursive;
-  font-size: 72px;
-  font-weight: bold;
-  color: #25365d;
-  text-align: center;
+.section-3 {
+  margin-bottom: 180px;
+  margin: 25pxauto; }
+  .section-3 h2 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 72px;
+    font-weight: bold;
+    color: #25365d;
+    text-align: center;
+    margin-bottom: 140px;
+    letter-spacing: 3px; }
+  .section-3 .screen {
+    position: relative;
+    display: flex; }
+    .section-3 .screen h3 {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 22px;
+      font-weight: bold;
+      color: #25365d;
+      text-align: left; }
+    .section-3 .screen p {
+      font-family: 'Open Sans', sans-serif;
+      font-weight: normal;
+      font-size: 14px;
+      color: #000000;
+      line-height: 26px;
+      text-align: left; }
+    .section-3 .screen .left-screen {
+      width: 50%;
+      height: 475px;
+      background: url(/img/Macbook\ 1.png) 533px 0 no-repeat; }
+      .section-3 .screen .left-screen .left-block-text {
+        position: relative;
+        display: flex;
+        justify-content: flex-start; }
+        .section-3 .screen .left-screen .left-block-text .text {
+          display: inline-flex;
+          height: 100%;
+          flex-direction: column;
+          align-items: start;
+          margin-left: 367px;
+          z-index: 100; }
+          .section-3 .screen .left-screen .left-block-text .text .line {
+            padding-right: 40px; }
+          .section-3 .screen .left-screen .left-block-text .text .feature-1 {
+            margin-top: 41px;
+            margin-bottom: 111px; }
+          .section-3 .screen .left-screen .left-block-text .text .feature-3 {
+            margin-bottom: 45px; }
+            .section-3 .screen .left-screen .left-block-text .text .feature-3 hr {
+              margin: 8px 0px 12px;
+              background-color: #ff2868;
+              width: 160px;
+              height: 1px; }
+        .section-3 .screen .left-screen .left-block-text .red-arrows {
+          position: absolute;
+          left: 526px;
+          display: flex;
+          flex-direction: column;
+          align-items: start;
+          justify-content: space-between;
+          z-index: 10; }
+          .section-3 .screen .left-screen .left-block-text .red-arrows .picture-1 {
+            margin-top: 84px; }
+          .section-3 .screen .left-screen .left-block-text .red-arrows .picture-3 {
+            margin-top: 69px; }
+    .section-3 .screen .middle {
+      position: absolute;
+      left: 911px;
+      top: 205px;
+      z-index: 100; }
+    .section-3 .screen .right-screen {
+      width: 50%;
+      height: 475px;
+      background: url(/img/Macbook\ 2.png) 0 0 no-repeat; }
+      .section-3 .screen .right-screen .right-block-text {
+        position: relative;
+        display: flex;
+        flex-direction: row-reverse; }
+        .section-3 .screen .right-screen .right-block-text .text {
+          display: flex;
+          height: 100%;
+          flex-direction: column;
+          align-items: flex-end;
+          margin-right: 370px;
+          z-index: 100; }
+          .section-3 .screen .right-screen .right-block-text .text h3, .section-3 .screen .right-screen .right-block-text .text p {
+            text-align: right; }
+          .section-3 .screen .right-screen .right-block-text .text .line {
+            padding-left: 40px; }
+          .section-3 .screen .right-screen .right-block-text .text .feature-2 {
+            margin-top: 41px;
+            margin-bottom: 109px; }
+            .section-3 .screen .right-screen .right-block-text .text .feature-2 hr {
+              margin: 8px 0px 12px;
+              background-color: #ff2868;
+              width: 160px;
+              height: 1px;
+              margin-left: auto; }
+          .section-3 .screen .right-screen .right-block-text .text .feature-4 {
+            margin-bottom: 45px; }
+        .section-3 .screen .right-screen .right-block-text .red-arrows {
+          position: absolute;
+          right: 528px;
+          display: inline-flex;
+          flex-direction: column;
+          align-items: flex-end;
+          justify-content: space-between;
+          z-index: 10; }
+          .section-3 .screen .right-screen .right-block-text .red-arrows .picture-2 {
+            margin-top: 84px; }
+          .section-3 .screen .right-screen .right-block-text .red-arrows .picture-4 {
+            margin-top: 94px; }
+
+.section-4 {
+  background-color: #efeff0;
+  padding: 120px 0;
   margin-bottom: 140px; }
-.section-3 .screen {
-  display: flex; }
-  .section-3 .screen .left-screen {
-    width: 50%;
-    height: 475px;
-    background-color: #e74f4f; }
-  .section-3 .screen .right-screen {
-    width: 50%;
-    height: 475px;
-    background-color: #90e73f; }
+  .section-4 .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+    .section-4 .container h2 {
+      font-family: 'Bebas Neue', cursive;
+      font-size: 72px;
+      font-weight: 500;
+      color: #25365d;
+      margin-bottom: 55px; }
+    .section-4 .container p {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 16px;
+      font-weight: normal;
+      text-align: center;
+      line-height: 32px;
+      color: #5a5a5a;
+      margin-bottom: 70px; }
+    .section-4 .container .blocks {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      width: 1150px;
+      margin-bottom: 70px; }
+      .section-4 .container .blocks .block {
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 365px; }
+        .section-4 .container .blocks .block h4 {
+          font-family: 'Open Sans', sans-serif;
+          font-size: 18px;
+          font-weight: normal;
+          color: #5a5a5a; }
+        .section-4 .container .blocks .block strong {
+          font-family: 'Open Sans', sans-serif;
+          font-size: 72px;
+          font-weight: bold;
+          color: #25365d; }
+        .section-4 .container .blocks .block span {
+          font-family: 'Open Sans', sans-serif;
+          font-style: 22px;
+          font-weight: normal;
+          color: #5a5a5a; }
+        .section-4 .container .blocks .block p {
+          font-family: 'Open Sans', sans-serif;
+          font-size: 18px;
+          font-weight: normal;
+          color: #5a5a5a; }
+    .section-4 .container .contacts {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      .section-4 .container .contacts h3 {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 22px;
+        font-weight: normal;
+        color: #25365d;
+        text-transform: uppercase;
+        margin-top: 20px;
+        margin-bottom: 30px; }
+      .section-4 .container .contacts p {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+        font-weight: normal;
+        color: #5a5a5a;
+        line-height: 32px;
+        margin-bottom: 65px; }
+      .section-4 .container .contacts .data {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 535px; }
+        .section-4 .container .contacts .data .email, .section-4 .container .contacts .data .phone {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          flex-direction: row; }
+        .section-4 .container .contacts .data strong {
+          display: inline-block;
+          margin-left: 10px;
+          font-family: 'Open Sans', sans-serif;
+          font-size: 22px;
+          font-weight: bold;
+          color: #25365d; }
+        .section-4 .container .contacts .data img {
+          display: inline-block; }
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center; }
+  .footer h2 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 72px;
+    font-weight: 500;
+    color: #25365d;
+    margin-bottom: 55px; }
+  .footer p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 32px;
+    color: #5a5a5a;
+    text-align: center;
+    margin-bottom: 70px; }
+  .footer .button-wrap {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 520px; }
+    .footer .button-wrap .button {
+      display: flex;
+      width: 214px;
+      height: 52px;
+      justify-content: center;
+      align-items: center;
+      border: 2px solid #25365d;
+      background-color: #25365d;
+      border-radius: 28px; }
+      .footer .button-wrap .button .img {
+        margin-right: 18px;
+        margin-top: 5px; }
+      .footer .button-wrap .button .text {
+        font-family: 'Open Sans', sans-serif;
+        color: #ffffff;
+        font-size: 18px;
+        font-weight: bold;
+        text-decoration: none; }
 
 /*# sourceMappingURL=main.css.map */
